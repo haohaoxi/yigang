@@ -1,0 +1,341 @@
+section {
+	width: 100%;
+	background: rgb(242, 242, 242);
+	position: relative;
+}
+
+#s-hide {
+	width: 1180px;
+	/*height: 800px;*/
+	margin: 0 auto;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+
+/*左边*/
+
+#s-hiddenLeft {
+	width: 173px;
+	height: 547px;
+	border: 1px solid rgb(221, 221, 221);
+	float: left;
+	background: rgb(255, 255, 255);
+}
+
+#s-hiddenLeft>p,
+.s-hiddenRight>p {
+	height: 58px;
+	line-height: 58px;
+	padding-left: 22px;
+	border-bottom: 1px solid rgb(221, 221, 221);
+	color: rgb(137, 137, 137);
+}
+
+#s-hiddenLeft>p>img {
+	vertical-align: middle;
+}
+
+#s-hiddenLeft>li {
+	height: 37.1px;
+	line-height: 37.1px;
+	padding-left: 22px;
+	font-size: 12px;
+	color: rgb(140, 140, 140);
+}
+#s-hiddenLeft>li>a{
+	color: rgb(102, 102, 102);
+}
+#s-hiddenLeft>li:nth-child(2)>a,
+#s-hiddenLeft>li:nth-child(7)>a,
+#s-hiddenLeft>li:nth-child(13)>a {
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+}
+
+#s-hiddenLeft>li>a:hover {
+	color: rgb(244, 112, 49);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#s-hiddenLeft>li>span:nth-child(2) {
+	float: right;
+	margin-right: 18px;
+}
+/*右边*/
+.s-hiddenRight {
+	width: 986px;
+	/*height: 180px;*/
+	float: right;
+	background: rgb(255, 255, 255);
+	border: 1px solid rgb(221, 221, 221);
+	display: block;
+}
+
+#s_hiddenrightup {
+	 width: 100%;
+	 height: 60px;
+	 line-height: 60px;
+	 border-bottom: 1px solid #D3D3D3;
+}
+#s_hiddenrightup span:nth-child(1){
+	font-size: 20px;
+	margin-left: 20px;
+	color: #404040;
+}
+#s_hiddenrightup span:nth-child(2){
+	font-size: 20px;
+	margin-left: 60px;
+    color: #404040;
+}
+#s_hiddenrightup span:nth-child(3){
+	font-size: 20px;
+	margin-left: 5px;
+	color: #FF6D26;
+}
+#s_hiddenrightup span:nth-child(4){
+	font-size: 14px;
+	margin-left: 120px;
+	background: #F46B2B;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+#s_hiddenrightup span:nth-child(5){
+	font-size: 14px;
+	margin-left: 40px;
+	background: #999999;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: white;
+	cursor:pointer;
+
+}
+/*下部*/
+#h_orderform{
+	width: 945px;
+	height: 420px;
+	border: 1px solid #ECECEC;
+	margin: 20px auto;
+	background: #F6F6F6;
+}
+#h_orderform p{
+	margin-top: 21px;
+	margin-left: 15px;
+	color: #404040;
+	position: relative;
+}
+#h_orderform p span:nth-child(1){
+	font-weight: 500;
+}
+#h_orderform p span:nth-child(2){
+	position: absolute;
+	left: 180px;
+	font-weight: 100;
+}
+.h_orderform2{
+	width: 945px;
+	margin: 0 auto;
+}
+.h_orderform2 .hconsignee1{
+	font-size: 20px;
+	color: #FF6D26;
+	margin-left: 15px;
+}
+.h_orderform22{
+	margin: 20px auto;
+	background: #F3F3F3;
+	border: 1px solid #ECECEC;
+}
+.h_orderform22 p {
+	margin-top:21px;
+	margin-left: 15px;
+	color: #404040;
+	position: relative;
+}
+.h_orderform22 p:last-child{
+	margin-bottom: 20px;
+}
+.h_orderform22 p span:nth-child(1){
+	font-weight: 500;
+}
+.h_orderform22 p span:nth-child(2){
+	position: absolute;
+	left: 180px;
+	font-weight: 100;
+}
+/*最下部*/
+#h_shopname{
+	width: 945px;
+	margin: 20px auto;
+	border: 1px solid #D3D3D3;
+}
+#h_shopname li{
+	margin-left: 20px;
+}
+#h_shopname #shopnamep1{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background: #F2F2F2;
+}
+#h_shopname #shopnamep1 span:nth-child(1){
+	margin-left: 20px;
+	color: #333333;
+}
+#h_shopname #shopnamep1 span:nth-child(2){
+	margin-left: 300px;
+	color: #333333;
+}
+#h_shopname #shopnamep1 span:nth-child(3){
+	margin-left: 125px;
+	color: #333333;
+}
+#h_shopname #shopnamep1 span:nth-child(4){
+	margin-left: 100px;
+	color: #333333;
+}
+#h_shopname #shopnamep1 span:nth-child(5){
+	margin-left: 110px;
+	color: #333333;
+}
+#h_shopname li{
+	width: 925px;
+	height: 80px;
+	line-height: 80px;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#h_shopname li img{
+	vertical-align: middle;
+}
+#h_shopname li span{
+	font-size: 12px;
+}
+#h_shopname li span:nth-child(2){
+	margin-left: 20px;
+	color: #999999;
+}
+#h_shopname li  span:nth-child(3){
+	 line-height: 20px;
+	 position: absolute;
+	 left: 380px;
+	 top: 10px;
+	 color: #999999;
+}
+#h_shopname li  span:nth-child(4){
+	 line-height: 20px;
+	 position: absolute;
+	 left: 380px;
+	 top: 45px;
+	 color: #999999;
+}
+#h_shopname li  span:nth-child(5){
+	margin-left: 330px;
+	color: #999999;
+}
+#h_shopname li  span:nth-child(6){
+	margin-left: 110px;
+	color: #999999;
+}
+#h_shopname li  span:nth-child(7){
+	margin-left: 125px;
+	color: #999999;
+}
+hr{
+	border: 1px solid #DEDEDE;
+}
+#shopnamediv1{
+	width: 945px;
+	height: 90px;
+}
+#shopnamediv1 p:nth-child(1){
+	margin-top: 20px;
+}
+#shopnamediv1 p:nth-child(1) span:nth-child(1){
+	margin-left: 570px;
+	font-size: 20px;
+}
+#shopnamediv1 p:nth-child(1) span:nth-child(2){
+	margin-left: 100px;
+	font-size: 20px;
+}
+#shopnamediv1 p:nth-child(1) span:nth-child(3){
+	margin-left: 80px;
+	font-size: 20px;
+}
+#shopnamediv1 p:nth-child(2){
+	margin-top: 20px;
+	color: #FF6D26;
+}
+#shopnamediv1 p:nth-child(2) span:nth-child(1){
+	margin-left: 570px;
+	font-size: 20px;
+	color: #FF6D26;
+}
+#shopnamediv1 p:nth-child(2) span:nth-child(2){
+	margin-left: 100px;
+	font-size: 20px;
+	color: #FF6D26;
+}
+#shopnamediv1 p:nth-child(2) span:nth-child(3){
+	margin-left: 90px;
+	font-size: 20px;
+	color: #FF6D26;
+}
+/*积分抵押*/
+#shopnameintegra{
+	width: 945px;
+	height: 78px;
+    border-bottom: 1px solid #D3D3D3;
+	line-height: 58px;
+	margin: 0 auto;
+}
+#shopnameintegra p span:nth-child(1){
+   margin-left: 670px;	
+}
+#shopnameintegra p span:nth-child(2){
+   margin-left: 50px;	
+   font-size: 20px;
+   color: #FF6D26;
+}
+#shopnameintegra2{
+	width: 945px;
+	height: 190px;
+	margin: 0 auto;
+}
+#shopnameintegra2 p:nth-child(1){
+	margin-top: 40px;
+	font-size: 25px;
+}
+#shopnameintegra2 p:nth-child(1) span:nth-child(1){
+	margin-left: 720px;
+}
+#shopnameintegra2 p:nth-child(1) span:nth-child(2){
+	margin-left: 10px;
+	color: #FF6D26;
+}
+#shopnameintegra2 p:nth-child(2){
+	margin-top: 50px;
+	font-size: 14px;
+}
+#shopnameintegra2 p:nth-child(2) span:nth-child(1){
+	margin-left: 700px;
+	font-size: 14px;
+	background: #F46B2B;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+#shopnameintegra2 p:nth-child(2) span:nth-child(2){
+	background: #999999;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: white;
+	cursor:pointer;
+	margin-left: 40px;
+}

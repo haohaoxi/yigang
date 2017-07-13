@@ -1,0 +1,164 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/shopping-cart.css"/>
+	</head>
+	<body>
+		<header>
+			<!--头部导航栏-->
+			<div id="nav">
+				<div id="navContent">
+					<div id="left">
+						<span>所在城市:</span>
+						<a href="change-city.html"><span id="changeCity"></span><i class="iconfont">&#xe629;</i></a>
+					</div>
+					<div id="right">
+						<li>
+							<a href="#" id="ueserLogin">登录</a>
+							<a href="#">注册</a>
+
+						</li>
+						<li>
+							<a href="#">我的订单</a>
+						</li>
+						<li>
+							<a href="#">我的消息</a>
+						</li>
+						<li>
+							<a href="#">我是商家</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/lead_1.png" /> 400-800-8820
+							</a>
+						</li>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<section>
+			<!--主体内容部分-->
+			<!--导航部分-->
+			<div id="sectTop">
+				<div id="sectTopLeft">
+					<img src="img/lead_logo.png"/>
+				</div>
+				<div id="sectTopRight">
+					<span>
+						我的购物车
+					</span>
+					<span>
+						确认订单信息
+					</span>
+					<span>
+						订单提交成功
+					</span>
+				</div>
+			</div>
+			<!--购物车logo部分-->
+			<div id="shoppingCartLogo">
+				<span>
+					<img src="img/15.png"/>
+				</span>
+				<span>
+					购物车
+				</span>
+			</div>
+			<!--购物车主体内容部分-->
+			<!--第一家店铺-->
+			<div class="shopsGoods">
+				<!--店铺名称-->
+				<div class="shopsGoodsTop">
+					<div class="shopsGoodsTopLeft">
+						<span class="bigCheckActive">
+							<img src="img/16.png" class="duihao"/>
+						</span>
+						<span>海澜之家旗舰店</span>
+					</div>
+					<div class="shopsGoodsTopRight">
+						<li>规格</li>
+						<li>单价</li>
+						<li>数量</li>
+						<li>金额</li>
+						<li>操作</li>
+					</div>
+				</div>
+				<!--店铺购买的商品部分-->
+				<div class="shopsGoodsContent">
+					<!--<li class="shopsGoodsNum">
+						<div class="liLeft">
+							<span class="bigCheck">
+							<img src="img/16.png" class="duihao"/>
+							</span>
+							<span>
+								<img src="img/17.png"/>
+							</span>
+							<span>
+								&lt;&lt;海澜之家&gt;&gt;男士衬衫
+							</span>
+						</div>
+						<div class="liRight">
+							<p>
+								<span>尺寸:170</span><br>
+								<span>颜色:红</span>
+							</p>
+							<p>
+								<span>¥</span>
+								<span class="onePrice">35.0</span>
+							</p>
+							<p>
+								<span class="jian">-</span>
+								<span class="num">1</span>
+								<span class="add">+</span>
+							</p>
+							<p>
+								<span>¥</span>
+								<span class="MorePrice">35.0</span>
+							</p>
+							<p>
+								<a href="#" class="liDelete">
+									删除
+								</a>
+							</p>
+						</div>
+					</li>
+					<!--金额结算部分-->
+					<div class="settleAccounts">
+						<p>
+							商品金额
+						</p>
+						<p class="total">
+							0
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<!--全选,批量删除.去结算-->
+			<div id="shopsBottom">
+				<p>
+					<span>全选</span>
+				</p>
+				<p>
+					<span>批量删除</span>
+				</p>
+				<p>
+					<span>商品总计</span>
+					<span id="totalGoods"></span>
+				</p>
+				<p>
+					<a href="confirm-order.html">
+						去结算
+					</a>
+				</p>
+			</div>
+		</section>
+		
+		<script src="js/jquery-2.2.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/shopping-cart.js"></script>
+	</body>
+</html>

@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+	width: 100%;
+}
+header{
+	width: 100%;
+	/*height: 211px;*/
+	/*border-bottom: 2px solid #008CE1;*/
+}
+input{
+	border:none;
+	outline: none;
+	border-radius: 0px;
+	
+}
+
+@font-face {font-family: "iconfont";
+  src: url('../font/iconfont.eot?t=1477558430'); /* IE9*/
+  src: url('../font/iconfont.eot?t=1477558430#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.woff?t=1477558430') format('woff'), /* chrome, firefox */
+  url('../font/iconfont.ttf?t=1477558430') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg?t=1477558430#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-jiantouxia:before { content: "\e629"; }
+.icon-gouwuche-copy:before { content: "\e600"; }
+.icon-weixin:before { content: "\3433"; }
+.icon-shouji:before { content: "\e601"; }
+.icon-fangdajing:before { content: "\e611"; }
+.icon-sanjiao:before { content: "\e613"; }
+.icon-sanjiao1:before { content: "\e724"; }
+.icon-uncheckedround:before { content: "\e63c"; }
+.icon-yuanxingxuanzhongfill:before { content: "\e601"; }
+.icon-yuanxingdanxuanxuanzhong:before { content: "\e601"; }
+.icon-yuanxuanzhong:before { content: "\e627"; }
+.icon-xuanzhongyuan:before { content: "\e64a"; }
+.icon-fangxingxuanzhong:before { content: "\e617"; }
+.icon-fangxingweixuanzhong-copy:before { content: "\e606"; }
+
+
+/*头部导航栏*/
+#nav{
+	width: 100%;
+	height: 35px;
+	background-color: #EEEEEE;
+	/*border: 1px solid red;*/
+}
+#navContent{
+	width: 1180px;
+	height: 35px;
+	margin: 0 auto;
+}
+/*头部导航栏左边内容*/
+#left{
+	font-size: 13px;
+	line-height: 35px;
+	color: #656565;
+	float: left;
+}
+#left a{
+	color: #656565;
+}
+#left .iconfont{
+	font-size: 12px;
+}
+/*头部导航栏右边内容*/
+#right{
+	float: right;
+	height: 35px;
+}
+#right>li{
+	height: 14px;
+	float: left;
+	font-size: 12px;
+	margin-top: 10.5px;
+	color: #656565;
+}
+#right>li>a{
+	display: inline-block;
+	color: #656565;
+}
+#right>li>a:hover{
+	color: rgb(185,27,52);
+}
+#right>li:nth-child(1){
+	width: 166px;
+	text-align: right;
+	border-right: 1px solid #656565;
+}
+#right>li:nth-child(1)>a:nth-child(1){
+	color: rgb(185,27,52);
+}
+#right>li:nth-child(1)>a{
+	margin-right: 15px;
+}
+#right>li:nth-child(2),
+#right>li:nth-child(3),
+#right>li:nth-child(4){
+	width: 80px;
+	border-right: 1px solid #656565;
+	text-align: center;
+}
+#right>li:nth-child(5){
+	width: 123px;
+	text-align: center;
+}
+
+/*主体内容部分*/
+section{
+	width: 100%;
+}
+#sectTop{
+	width: 1180px;
+	height: 188px;
+	margin: 0 auto;
+	border: 1px solid #D3D3D3;
+	
+}
+#sectTopLeft{
+	float: left;
+	height: 80px;
+	margin-top: 54px;
+}
+#sectTopRight{
+	/*border: 1px solid red;*/
+	float: right;
+	margin-top: 73px;
+	
+}
+#sectTopRight>span{
+	display: inline-block;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	font-size: 20px;
+	float: left;
+}
+#sectTopRight>span:nth-child(1){
+	width: 236px;
+	background:url(../img/12.png) no-repeat;
+	color: #fff;
+	
+}
+#sectTopRight>span:nth-child(2){
+	width: 245px;
+	background:url(../img/13.png) no-repeat;
+}
+#sectTopRight>span:nth-child(3){
+	width: 236px;
+	background:url(../img/14.png) no-repeat;
+}
+
+/*购物车logo部分*/
+#shoppingCartLogo{
+	width: 1180px;
+	height: 90px;
+	margin: 0 auto;
+	border: 1px solid #D3D3D3;
+	font-size: 25px;
+	color: #666666;
+	line-height: 90px;
+}
+#shoppingCartLogo img{
+	vertical-align: middle;
+}
+#shoppingCartLogo>span:nth-child(2){
+	margin-left: 20px;
+}
+
+/*购物车主体内容部分*/
+.shopsGoods{
+	width: 1180px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 1px solid #D3D3D3;
+}
+/*商家店铺名称*/
+.shopsGoodsTop{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background-color: #F2F2F2;
+}
+/*商家店铺名称左边*/
+.shopsGoodsTopLeft{
+	width: 40%;
+	float: left;
+	box-sizing: border-box;
+/*	padding-left: 20px;*/
+}
+/*checkBox的样式*/
+.bigCheck{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #D3D3D3;
+	position: relative;
+}
+.bigCheckActive{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #D3D3D3;
+	position: relative;
+}
+.duihao{
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	display: none;
+}
+.shopsGoodsTopLeft>span{
+	margin-left: 20px;
+}
+/*商家店铺名称右边*/
+.shopsGoodsTopRight{
+	width: 60%;
+	float: left;
+	box-sizing: border-box;
+}
+.shopsGoodsTopRight>li{
+	width: 20%;
+	text-align: center;
+	float: left;
+	/*background: red;*/
+}
+
+/*商家店铺主体内容*/
+.shopsGoodsContent{
+	width:100%;
+}
+.shopsGoodsContent>li{
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #D3D3D3;
+	position: relative;
+	display: block;
+}
+.liLeft{
+	width: 40%;
+	height: 60px;
+	margin-left: 20px;
+	position: absolute;
+	top: 10px;
+	color: #666666;
+}
+.liLeft>span:nth-child(2)>img{
+	height: 100%;
+	vertical-align: middle;
+}
+.liLeft>span:nth-child(1),
+.liLeft>span:nth-child(3){
+	line-height: 60px;
+}
+.liLeft>span{
+	margin-right: 20px;
+}
+.liRight{
+	width: 60%;
+	height: 60px;
+	position: absolute;
+	left: 40%;
+	/*background: red;*/
+	top: 10px;
+}
+.liRight>p{
+	width: 20%;
+	height: 60px;
+	text-align: center;
+	float: left;
+	/*background: yellow;*/
+}
+.liRight>p:nth-child(1){
+	line-height: 30px;
+}
+.liRight>p:nth-child(2),
+.liRight>p:nth-child(4),
+.liRight>p:nth-child(5){
+	line-height: 60px;
+}
+.liRight>p:nth-child(3)>span{
+	float: left;
+	margin-top: 20px;
+}
+.liRight>p:nth-child(3)>span:nth-child(1){
+	margin-left: 25px;
+}
+.liRight>p:nth-child(3)>span:nth-child(1),
+.liRight>p:nth-child(3)>span:nth-child(3){
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #D3D3D3;
+}
+.liRight>p:nth-child(3)>span:nth-child(2){
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	border-top: 1px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
+	
+}
+
+/*商品结算部分*/
+.settleAccounts{
+	width: 100%;
+	height: 90px;
+	position: relative;
+}
+.settleAccounts>p:nth-child(1){
+	width:150px;
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+	top: 20px;
+	right:11%;
+}
+.settleAccounts>p:nth-child(2){
+	width:150px;
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+	top: 50px;
+	right:11%;
+	color:#FF6D26;
+}
+
+/*全选,批量删除.去结算*/
+#shopsBottom{
+	width:1180px;
+	height: 127px;
+	margin: 0 auto;
+	border: 1px solid #D3D3D3;
+	border-top: none;
+	position: relative;
+}
+#shopsBottom>p{
+	float: left;
+	height: 47px;
+	line-height: 50px;
+	position: absolute;
+	top: 40px;	
+	text-align: center;
+}
+#shopsBottom>p:nth-child(1){
+	left: 30px;
+	color: #0183C4;
+}
+#shopsBottom>p:nth-child(2){
+	left: 150px;
+	color: #0183C4;
+}
+#shopsBottom>p:nth-child(3){
+	right: 300px;
+	font-size: 25px;
+}
+#shopsBottom>p:nth-child(3)>span:nth-child(2){
+	color: #FF6D26;
+}
+#shopsBottom>p:nth-child(4){
+	width: 170px;
+	right: 0;
+	background-color: #FF6D26;
+	border-radius: 8px;
+}
+#shopsBottom>p:nth-child(4)>a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}

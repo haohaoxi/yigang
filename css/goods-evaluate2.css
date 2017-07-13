@@ -1,0 +1,151 @@
+section {
+	width: 100%;
+	background: rgb(242, 242, 242);
+	position: relative;
+}
+
+#s-hide {
+	width: 1180px;
+	height: 800px;
+	margin: 0 auto;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+
+/*左边*/
+
+#s-hiddenLeft {
+	width: 173px;
+	height: 547px;
+	border: 1px solid rgb(221, 221, 221);
+	float: left;
+	background: rgb(255, 255, 255);
+}
+
+#s-hiddenLeft>p,
+.s-hiddenRight>p {
+	height: 58px;
+	line-height: 58px;
+	padding-left: 22px;
+	border-bottom: 1px solid rgb(221, 221, 221);
+	color: rgb(137, 137, 137);
+}
+
+#s-hiddenLeft>p>img {
+	vertical-align: middle;
+}
+
+#s-hiddenLeft>li {
+	height: 37.1px;
+	line-height: 37.1px;
+	padding-left: 22px;
+	font-size: 12px;
+	color: rgb(140, 140, 140);
+}
+#s-hiddenLeft>li>a{
+	color: rgb(102, 102, 102);
+}
+#s-hiddenLeft>li:nth-child(2)>a,
+#s-hiddenLeft>li:nth-child(7)>a,
+#s-hiddenLeft>li:nth-child(13)>a {
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+}
+
+#s-hiddenLeft>li>a:hover {
+	color: rgb(244, 112, 49);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#s-hiddenLeft>li>span:nth-child(2) {
+	float: right;
+	margin-right: 18px;
+}
+
+.s-hiddenRight {
+	width: 986px;
+	height: 760px;
+	float: right;
+	background: rgb(255, 255, 255);
+	border: 1px solid rgb(221, 221, 221);
+	display: block;
+	overflow: hidden;
+}
+
+.s-hiddenRight>p {
+	color: rgb(8, 167, 223);
+	font-size: 18px;
+}
+
+#s-left{
+	width:175px;
+	height: 190px;
+	margin: 40px 0 10px 38px;
+	float: left;
+}
+#s-left>p{
+	text-align: center;
+	margin-top: 12px;
+	font-size: 12px;
+	color: rgb(113,113,113);
+}
+#s-right{
+	width:400px;
+	/*height:150px;*/
+	float: left;
+	margin-left: 35px;
+	margin-top: 40px;
+}
+#s-right>p{
+	line-height: 50px;
+	font-size: 14px;
+	color: rgb(102,102,102);
+}
+
+#s-right>P>span:nth-child(2){
+	margin-left: 10px;
+	vertical-align: middle;
+	
+}
+#s-right>P>span:nth-child(2)>img{
+	vertical-align: sub;
+}
+
+#s-right>p:nth-child(4){
+	width:695px;
+	height: 257px;
+	margin-top: 20px;
+	position: relative;
+
+	
+}
+#s-right>p:nth-child(4)>textarea{
+	width:695px;
+	height: 257px;
+	color: rgb(177,177,177);
+}
+#s-right>p:nth-child(4)>span{
+	position: absolute;
+	right:20px;
+	bottom: 0;
+	color: rgb(204,204,204);
+}
+#s-right>p:nth-child(5){
+	width:300px;
+	height: 100px;
+	margin-top: 20px;
+}
+#s-right>p:nth-child(5)>a>img{
+	padding-right: 10px;
+}
+#s-right>p:nth-child(6){
+	width:168px;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+	color: rgb(255,255,255);
+	background: rgb(244,107,43);
+	border-radius: 5px;
+}

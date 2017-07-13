@@ -1,0 +1,129 @@
+section {
+	width: 100%;
+	background: rgb(242,242,242);
+}
+
+.swiper-container {
+	width: 100%;
+	height: 366px;
+}
+
+.swiper-container img {
+	width: 100%;
+	height: 100%;
+}
+
+#swiper-pagination .swiper-pagination-bullet {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #000;
+	opacity: 1;
+}
+
+#swiper-pagination .swiper-pagination-bullet-active {
+	background: rgb(255, 109, 38);
+}
+
+#s-limit{
+	width: 1188px;
+	height: 2100px;
+	margin: 0 auto;
+	
+}
+#s-limit>.limit-top{
+	width: 100%;
+	height: 450px;
+}
+#s-limit>.limit-top>p{
+	height: 105px;
+	line-height: 105px;
+}
+
+#s-limit>.limit-top>p>span:nth-child(1),
+#s-limit>.limit-top>p>span:nth-child(2){
+	font-size: 30px;
+	color: rgb(255,127,52);
+}
+#s-limit>.limit-top>p>span:nth-child(2){
+	color: rgb(0,151,222);
+}
+#s-limit>.limit-top>p>span:nth-child(3){
+	font-size: 14px;
+	color: rgb(66,66,66);
+}
+
+#screen{
+	width: 100%;
+	height: 394px;
+	/*background: red;*/
+}
+
+
+
+
+
+
+
+/*图片*/
+.photodownli1 {
+	border: 1px solid #F0F0F0;
+	width: 218px;
+	height: 330px;
+	display: inline-block;
+	margin: 0 14.4px 20px 0;
+	background: rgb(255,255,255);
+}
+
+.photodownli2 {
+	border: 1px solid #FDB483;
+}
+
+.photodownli1 span:nth-child(2) {
+	display: inline-block;
+	width: 180px;
+	height: 50px;
+	margin-left: 19px;
+	line-height: 25px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-top: 10px;
+	color: #666666;
+}
+
+.photodownli1 span:nth-child(3) {
+	display: inline-block;
+	margin-left: 18px;
+	margin-top: 15px;
+	color: #EB0319;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.photodownli1 span:nth-child(4) {
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 15px;
+	text-decoration:line-through;
+	font-size: 14px;
+	font-weight: 900;
+}
+.photodownli1 span:nth-child(5){
+	display: inline-block;
+	width: 76px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid rgb(246,131,72);
+	color: rgb(244,112,49);
+	border-radius: 10px;
+	font-size: 12px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.photodown>li:nth-child(4)>span:nth-child(5){
+	border: 1px solid rgb(213,213,213);
+	color: rgb(158,158,158);
+}

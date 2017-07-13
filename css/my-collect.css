@@ -1,0 +1,164 @@
+section {
+	width: 100%;
+	background: rgb(242, 242, 242);
+	position: relative;
+}
+
+#s-hide {
+	width: 1180px;
+	height: 800px;
+	margin: 0 auto;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+
+/*左边*/
+
+#s-hiddenLeft {
+	width: 173px;
+	height: 547px;
+	border: 1px solid rgb(221, 221, 221);
+	float: left;
+	background: rgb(255, 255, 255);
+}
+
+#s-hiddenLeft>p,
+.s-hiddenRight>p {
+	height: 58px;
+	line-height: 58px;
+	padding-left: 22px;
+	border-bottom: 1px solid rgb(221, 221, 221);
+	color: rgb(137, 137, 137);
+}
+
+#s-hiddenLeft>p>img {
+	vertical-align: middle;
+}
+
+#s-hiddenLeft>li {
+	height: 37.1px;
+	line-height: 37.1px;
+	padding-left: 22px;
+	font-size: 12px;
+	color: rgb(140, 140, 140);
+}
+#s-hiddenLeft>li>a{
+	color: rgb(102, 102, 102);
+}
+
+#s-hiddenLeft>.liActive>a{
+	color: #F57333 !important;
+}
+#s-hiddenLeft>li:nth-child(2)>a,
+#s-hiddenLeft>li:nth-child(7)>a,
+#s-hiddenLeft>li:nth-child(13)>a {
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+}
+
+#s-hiddenLeft>li>a:hover {
+	color: rgb(244, 112, 49);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#s-hiddenLeft>li>span:nth-child(2) {
+	float: right;
+	margin-right: 18px;
+}
+
+.s-hiddenRight {
+	width: 986px;
+	height: 780px;
+	float: right;
+	background: rgb(255, 255, 255);
+	border: 1px solid rgb(221, 221, 221);
+	display: block;
+}
+
+.s-hiddenRight>p {
+	color: rgb(8, 167, 223);
+	font-size: 18px;
+}
+
+
+/*我的收藏*/
+
+
+/*图片*/
+
+.photodown {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.photodownli1 {
+	border: 1px solid #F0F0F0;
+	width: 218px;
+	height: 330px;
+	display: inline-block;
+	/*margin: 0 2px;*/
+	margin-left: 10px;
+	position: relative;
+}
+
+.photodownli2 {
+	border: 1px solid #FDB483;
+}
+
+.photodownli1 span:nth-child(2) {
+	display: inline-block;
+	width: 180px;
+	height: 50px;
+	margin-left: 19px;
+	line-height: 25px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-top: 10px;
+	color: #666666;
+}
+
+.photodownli1 span:nth-child(3) {
+	display: inline-block;
+	margin-left: 18px;
+	margin-top: 15px;
+	color: #EB0319;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.photodownli1 span:nth-child(4) {
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 15px;
+	text-decoration: line-through;
+	font-size: 14px;
+	font-weight: 900;
+}
+.photodownli1 span:nth-child(5),.photodownli1 span:nth-child(6){
+	display: inline-block;
+	width: 76px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid rgb(246,131,72);
+	color: rgb(244,112,49);
+	border-radius: 10px;
+	font-size: 12px;
+	margin-left: 5px;
+	vertical-align: middle;
+	cursor: pointer;
+	position: absolute;
+	bottom: 12px;
+	right:25px
+}
+.photodownli1 span:nth-child(6){
+	display: inline-block;
+	display: none;
+	position: absolute;
+	bottom: 12px;
+	right:25px
+}

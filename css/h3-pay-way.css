@@ -1,0 +1,205 @@
+
+/*内容*/
+section{
+	width: 100%;
+	
+}
+#content{
+	/*border: 1px solid red;*/
+	width: 1180px;
+	margin: 0 auto;
+}
+#crumebs{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 56px;
+	line-height: 56px;
+	font-size: 16px;
+	color: #999;
+}
+a{
+	text-decoration: none;
+	color: #999;
+}
+#crumebs span:nth-child(4){
+	color: #f60;
+}
+#settled{
+	width: 1020px;
+	border: 1px solid rgb(211,211,211);
+	padding: 80px;
+	background: #fff;
+}
+#settled_body{
+	overflow: hidden;
+}
+#step{
+	width: 900px;
+	height: 42px;
+	background: #E5E5E5;
+	overflow: hidden;
+	
+}
+.s1{
+	background: #ff6c00;
+	color: white;
+}
+.group{
+	float: left;
+	text-align: center;
+	width: 200px;
+	height: 42px;
+	font-size: 16px;
+	line-height: 42px;
+	/*color: #666;*/
+
+}
+.icon{
+	display: inline-block;
+	background-image: url(../img/h_apply_for/icons.png);
+	background-repeat: no-repeat;
+	font-style: normal;
+}
+#step i {
+	float: left;
+	width: 32px;
+	height: 42px;
+}
+.arrow1{
+	background-position: -255px -144px ;
+}
+.arrow2{
+	background-position: -253px -220px;
+}
+.arrow3{
+	background-position: -253px -272px;
+}
+/*支付方式*/
+#success-way{
+	margin: 40px 40px 0 40px;
+	/*border: 1px solid red;*/
+	/*border: none;*/
+}
+#success-way #sucess-money{
+	overflow: hidden;
+	text-align: center;
+	padding: 80px 0 40px;
+}
+#on-line{
+	overflow: hidden;
+	height: auto;
+	margin: 0 0 20px 0;
+}
+#on-line span{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	color: #666666;
+	/*border: 1px solid red;*/
+	margin-right: 10px;
+}
+#on-line span:nth-child(2){
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 22px;
+	color: #FF6C00;
+	/*border: 1px solid red;*/
+}
+
+.paying-online{
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #D3D3D3;  
+	margin: 0 0 40px 0;  
+	
+	height: 30px;
+	overflow: hidden;	
+}
+.paying-online span{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	color: #666666;
+}
+ul{
+	list-style:none ;
+}
+
+.payment-list{
+	height: 40px;
+	overflow: hidden;
+}
+.payment-list .item{
+	float: left;
+	/*border: 1px solid red;*/
+}
+.payment-list .ico{
+	border: 1px solid #008CE1;
+	float: left;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	margin: 10px 10px 0 0;
+	position: relative;
+}
+.payment-list .i{
+	background:#018De2;
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -6px;
+	/*display: none;*/
+}
+.payment-list .weixin .ico{
+	border-color: rgb(215,215,215);
+}
+.payment-list .weixin .i{
+	display: none;
+}
+
+.payment-list .item .cover{
+	float: left;
+	width: 133px;
+	height: 40px;
+	margin-right: 20px;
+	/*border: 1px solid red;*/
+}
+.payment-list .zhufubao .icon{
+	background-image: url(../img/h_apply_for/icons.png);
+	   background-position: -298px -80px;
+	   width: 133px;
+	   height: 40px;
+}
+
+.payment-list .weixin .icon{
+	background-image: url(../img/h_apply_for/icons.png);
+	   background-position: -298px -149px;
+	   width: 133px;
+	   height: 40px;
+}
+/*立即支付*/
+#worry-pay{
+	margin: 0 0 50px 0;
+	/*background: red;*/
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+#worry-pay a{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-size: 16px;
+	padding: 0 30px;
+	text-decoration: none;
+	border-radius: 5px;
+	background: #FF6600;
+	float: right;
+}
+
